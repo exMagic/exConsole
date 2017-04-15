@@ -8,8 +8,8 @@ Version: 1.0
 License: -
 License -
 */
-
-body {font: 13px Helmet, Freesans, sans-serif;}
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro&amp;subset=latin-ext);
+body {font-size: 13px; font-family: 'Source Code Pro', monospace;}
 
 
 body, select, input, textarea {color: #333;}
@@ -35,7 +35,7 @@ textarea:-moz-placeholder { color:#a9a9a9; }
 /* WordPress
 -------------------------------------------------------------------------------*/
 
-#wrapper {width: 960px; margin: 20px auto;}
+#wrapper {width: 1200px; margin: 20px auto;}
 
 
 /* Print styles!
